@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 8rem;
+    align-items: center;
+}
+
+.header__nav{
+    display: flex;
+    list-style: none;
+    width: 48%;
+    justify-content: space-between;
+}
+
+.header__titulo{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.header__list{
+    font-size: 1.1rem;
+    font-weight: 300;
+
+}
