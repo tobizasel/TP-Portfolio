@@ -4,6 +4,9 @@
     padding: 1.5rem 8rem;
     align-items: center;
     background-color: #ebebeb;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 .header__nav{

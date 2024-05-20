@@ -1,0 +1,26 @@
+.conocimientos{
+    width: 70%;
+    margin: auto;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.conocimientos__conocimientos{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conocimientos__conocimiento{
+    width: 20%;
+}
+
+.conocimiento__icono{
+    font-size: 5rem;
+    margin-bottom: 5rem;
+}
+
+.conocimiento__texto{
+    font-size: 1.5rem;
+    font-weight: 400;
+}

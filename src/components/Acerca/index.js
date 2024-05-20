@@ -7,7 +7,7 @@ const index = () => {
     <section className='acerca' id='acerca'>
         <div className='acerca__izquierda'>
             <h1 className='acerca__titulo'>Tobias Zaselsky</h1>
-            <p className='acerca__p'>Estudie en NUM (Nueva Universidad de Magnates) un doctorado en Mewing y una licenciatura en Chat-GPT. Tambien me gustan los animales y la chocotorta. Aguante Cristina</p>
+            <p className='acerca__p'>Estudie en NUM (Nueva Universidad de Magnates) un doctorado en Mewing y una licenciatura en Chat-GPT. Asi como tambien una carrera de desarrollador en Coderhouse. Tambien me gustan los animales y la chocotorta. Aguante Cristina</p>
             <div className='acerca__info'>
                 <Items categoria="Edad" info="12"/>
                 <Items categoria="Mail" info="ahiselomandamo@gracias.com.tv"/>
