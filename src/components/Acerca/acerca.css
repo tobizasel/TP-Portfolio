@@ -1,0 +1,45 @@
+.acerca{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.acerca__izquierda{
+    width: 60%;
+}
+
+.acerca__p{
+    text-align: justify;
+}
+
+.acerca__titulo{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.acerca__info{
+    margin: 1rem 0;
+}
+
+.acerca__informacion{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.acerca__informacionTitulo{
+    width: 5%;
+    font-weight: 400;
+}
+
+.acerca__informacionInfo{
+    margin-left: 5rem;
+    font-weight: 700;
+}
+
+.acerca__img{
+    border-radius: 100%;
+    width: 200%;
+}
