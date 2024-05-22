@@ -2,6 +2,7 @@ import Header from './components/header';
 import Section from './components/Main'
 import Acerca from './components/Acerca';
 import Conocimientos from "./components/Conocimientos"
+import Experiencia from './components/Experiencia';
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Section/>
       <Acerca/>
       <Conocimientos/>
+      <Experiencia/>
     </div>
   );
 }

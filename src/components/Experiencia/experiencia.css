@@ -1,0 +1,15 @@
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.experiencia__cards{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}

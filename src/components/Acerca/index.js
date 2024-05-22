@@ -1,6 +1,8 @@
 import React from 'react'
 import Items from './Items'
 import './acerca.css'
+import kanye from '../../assets/kanye.jpg'
+
 
 const index = () => {
   return (
@@ -15,7 +17,7 @@ const index = () => {
             <p className='acerca__p'>Mi vasta experiencia en luxmaxxing y ser un alpha me permitio en varias instancias liderar equipos enteros de brainrot. Una experiencia inolvidable fue diseñar la campaña de marketing Tutu Automotores. </p>
         </div>
 
-        <img className='acerca__img' src='https://media.revistavanityfair.es/photos/60e84d70ec46354bf448266f/master/w_1600%2Cc_limit/28299.jpg' alt='kanye'/>
+        <img className='acerca__img' src={kanye} alt='kanye'/>
     </section>
 
   )
