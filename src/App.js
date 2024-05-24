@@ -3,6 +3,7 @@ import Section from './components/Main'
 import Acerca from './components/Acerca';
 import Conocimientos from "./components/Conocimientos"
 import Experiencia from './components/Experiencia';
+import Recomedacion from './components/Recomendacion'
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Acerca/>
       <Conocimientos/>
       <Experiencia/>
+      <Recomedacion/>
     </div>
   );
 }

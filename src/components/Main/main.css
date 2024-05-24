@@ -2,8 +2,9 @@
     display: flex;
     padding: 0 25%;
     justify-content: center;
-    background-color: #ebebeb;
+    background-color: #64DFDF;
     margin-top: 6rem;
+    color: #0a0908;
 }
 
 .main__img{
