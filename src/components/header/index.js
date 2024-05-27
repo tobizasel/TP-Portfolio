@@ -8,10 +8,11 @@ const Header = () => {
   const [header, setHeader] = useState(true)
 
   const cambiarHeader = () => {
-    if (window.screenY > 500) {
+    if (window.scrollY > 650) {
       setHeader(false);
       console.log("holaaa");
-    }
+    } else setHeader(true);
+
   }
 
   window.addEventListener('scroll',cambiarHeader)
@@ -21,12 +22,12 @@ const Header = () => {
 
         <Titulo/>
         <ul className='header__nav'>
-          <Link texto={"Acerca de mi"} link={""}/>
-          <Link texto={"Conocimientos"} link={""}/>
-          <Link texto={"Experiencias"} link={""}/>
-          <Link texto={"Educacion"} link={""}/>
-          <Link texto={"Certificaciones"} link={""}/>
-          <Link texto={"Contacto"} link={""}/>
+          <Link texto={"Acerca de mi"} link={"#acerca"}/>
+          <Link texto={"Conocimientos"} link={"#conocimientos"}/>
+          <Link texto={"Experiencias"} link={"#experiencias"}/>
+          <Link texto={"Educacion"} link={"#educacion"}/>
+          <Link texto={"Certificaciones"} link={"#certificaciones"}/>
+          <Link texto={"Contacto"} link={"#contacto"}/>
         </ul>
     </header>
   )

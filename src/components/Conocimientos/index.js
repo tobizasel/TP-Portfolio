@@ -5,7 +5,7 @@ import { faChurch, faFerry, faToilet, faOilWell } from '@fortawesome/free-solid-
 
 const index = () => {
   return (
-    <div className='conocimientos'>
+    <div className='conocimientos' id='conocimientos'>
 
         <h2 className='conocimientos__titulo'>Conocimientos</h2>
         <div className='conocimientos__conocimientos'>

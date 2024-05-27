@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Recomendacion = ({texto}) => {
   return (
-    <div>
+    <div className='recomendacion__wrapper'>
             <FontAwesomeIcon className='recomendacion__icono' icon={faQuoteLeft}/>
             <p className='recomendacion__p'>{texto}</p>
     </div>

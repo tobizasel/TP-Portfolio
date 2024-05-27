@@ -10,7 +10,7 @@ const index = () => {
   const carta2= ["Durante este tiempo, he adquirido experiencia en proyectos personales, tanto en el desarrollo Frontend utilizando tecnologías como HTML, CSS, y React.js, como en el desarrollo Backend empleando TypeScript, Node.js y Nest.js. Además, he incursionado en el desarrollo móvil utilizando React Native.", "Mis habilidades destacadas se centran en el uso de NestJS y TypeScript, áreas en las que he acumulado experiencia significativa a lo largo de mi trayectoria profesional."];
 
   return (
-    <div className='experiencia'>
+    <div className='experiencia' id='experiencias'>
         <h2>Experiencia laboral</h2>
         <div className='experiencia__cards'>
         <Card titulo={"Desarrollador Backend"} subtitulo={"Wadiah Capital. (2021-2023)"} logo={faCode} texto={carta1}/>

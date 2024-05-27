@@ -3,10 +3,22 @@
     justify-content: space-between;
     padding: 1.5rem 8rem;
     align-items: center;
-    background-color: #64DFDF;
+    background-color: #e0aaff;
     position: fixed;
     width: 100%;
     z-index: 10;
+}
+
+.header__blanco{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 8rem;
+    align-items: center;
+    background-color: #f8ebff;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 5px 5px 5px 0px #ccc5;
 }
 
 .header__nav{

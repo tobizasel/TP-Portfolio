@@ -1,0 +1,44 @@
+.certificaciones{
+    display: flex;
+    width: 65%;
+    margin: auto;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.certificaciones__titulo{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.imagenes:not(:last-child){
+    margin-right: 2rem;
+}
+
+.carrusel{
+    width: 60%;
+    margin: auto;
+    margin-top: 3rem;
+
+}
+
+.imagenes{
+    text-align: center;
+}
+
+.imagenes__img{
+    border-radius: 50%;
+    border: 5px solid #5a189a;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+.imagenes__titulo{
+    color: #5a189a;
+}
+
+.imagenes__subtitulo{
+    color: #a584c7;
+}
+
+

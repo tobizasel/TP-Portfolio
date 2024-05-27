@@ -1,0 +1,12 @@
+.educacion__titulo{
+    text-align: center;
+}
+
+.educacion__cartas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+}   
+

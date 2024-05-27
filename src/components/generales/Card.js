@@ -1,12 +1,13 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Card = ({titulo, subtitulo, logo, texto}) => {
 
-    console.log(texto);
+const Card = ({titulo, subtitulo, logo, texto, clase}) => {
 
+
+    
   return (
-    <div className='card'>
+    <div className={clase ? "card" : `card ${clase}`}>
         <div className='card__header'>
             <div className='card__titulos'>
                 <h3 className='card__titulo'>{titulo}</h3>
